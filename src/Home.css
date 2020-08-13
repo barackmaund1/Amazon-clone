@@ -2,9 +2,18 @@
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .home__image{
     width: 100%;
-    mask-image: linear-gradient(to bottom,rgb(250, 163, 3),rgb(248, 247, 245));
-    
+    mask-image: linear-gradient(to bottom,rgb(250, 163, 3),rgb(250, 248, 245));
+    position: relative;
+    z-index: -1;
+    margin-bottom: -150px;
 }  
+.home__row{
+   display: flex; 
+   z-index: 1;
+   margin-left:5px ;
+   margin-right: 5px;
+}
