@@ -2,8 +2,6 @@
     display: flex;
     margin: 20px;
     background-color:white;
-    max-width: 800px;
-
 }
 .checkoutProduct__image{
     object-fit: contain;
