@@ -3,9 +3,11 @@ export const initialState = {
     user:null
 };
 //selectors
-export const getBasketTotal =(basket) =>
-basket?.reduce((amount,item) =>item.price + amount,0);
 
+export const getBasketTotal = (basket) =>
+basket?.reduce((amount,item) =>item.price + amount,0);
+ 
+console.log(getBasketTotal)
 const reducer =(state,action) =>{
     console.log(action);
     switch(action.type){
@@ -38,7 +40,7 @@ const reducer =(state,action) =>{
         }
       
     default :
-       return state   
+       return state  ; 
     }
-}
+};
 export default reducer

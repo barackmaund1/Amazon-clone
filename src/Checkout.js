@@ -3,7 +3,7 @@ import './Checkout.css'
 import { useStateValue } from './StateProvider';
 import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal';
-import CurrencyFormat from 'react-currency-format';
+
 
 const Checkout = () => {
 

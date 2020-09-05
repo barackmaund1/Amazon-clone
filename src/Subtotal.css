@@ -9,6 +9,7 @@
     border: 1px solid #dddddd;
     border-radius: 3px;
 }
+
 .subtotal__gift{
     display: flex;
     align-items: center;
@@ -26,4 +27,17 @@
     border-color:#a88734 #9c7e31 #846a29;
     color: #111;
     
+}
+
+@media(max-width:770px){
+   
+    .subtotal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #f3f3f3;
+        border: 1px solid #dddddd;
+        border-radius: 3px;
+    }
+
 }
